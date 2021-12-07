@@ -1,0 +1,26 @@
+{
+  "name": "strava-feed",
+  "version": "0.0.1",
+  "description": "Requests a strava feed and turns into an ICS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "strava"
+  ],
+  "author": "Margaret Wang",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "ical-generator": "^3.1.0",
+    "ics": "^2.31.0",
+    "node-fetch": "^3.1.0"
+  }
+}
